@@ -159,4 +159,6 @@ llm=ChatOpenAI(model_name="gpt-4")
 
 ## ライセンス
 
-このプロジェクトはMITライセンスの下で提供されています。
+このプロジェクトはMITライセンスの下で提供されています。詳細は[LICENSE.txt](LICENSE.txt)をご覧ください。
+
+Copyright © 2024 base1551
