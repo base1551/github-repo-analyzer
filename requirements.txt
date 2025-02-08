@@ -4,3 +4,4 @@ chromadb==0.3.26
 tiktoken==0.4.0
 GitPython==3.1.31
 python-dotenv==1.0.0
+streamlit==1.27.0
