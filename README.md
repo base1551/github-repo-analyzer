@@ -8,12 +8,12 @@ GitHubリポジトリのソースコードを学習し、そのリポジトリ�
 - リポジトリの内容に関する質問に日本語で回答
 - トークン使用量とコストの表示
 - Streamlit ベースのWebインターフェース
-- GPT-4による高精度な回答生成
+- GPT-4oによる高精度な回答生成
 
 ## システム要件
 
 - Python 3.7以上
-- OpenAI APIキー（GPT-4へのアクセス権が必要）
+- OpenAI APIキー（GPT-4oへのアクセス権が必要）
 - インターネット接続
 
 ## インストール方法
@@ -85,7 +85,7 @@ pip install -r requirements.txt
 2. **検索と質問応答**
    - ChromaDBによる効率的なベクターストア
    - RetrievalQAチェーンによる関連コンテキストの抽出
-   - GPT-4による高品質な回答生成
+   - GPT-4oによる高品質な回答生成
 
 3. **ユーザーインターフェース**
    - コマンドライン（github_explain.py）
@@ -120,7 +120,7 @@ streamlit run app.py
 
 1. APIキー関連:
    - `.env`ファイルが正しく配置されているか確認
-   - APIキーがGPT-4にアクセス可能か確認
+   - APIキーがGPT-4oにアクセス可能か確認
 
 2. リポジトリのクローン失敗:
    - インターネット接続を確認
@@ -154,7 +154,7 @@ file_filter=lambda file_path: file_path.endswith('.py')
 
 3. モデルの変更:
 ```python
-llm=ChatOpenAI(model_name="gpt-4")
+llm=ChatOpenAI(model_name="gpt-4o")
 ```
 
 ## ライセンス
